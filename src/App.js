@@ -1,10 +1,11 @@
-import Navbar from './components/Navbar/Navbar';
-import './index.css';
+import Button from './components/Button/Button';
+import Pill from './components/Pill/Pill';
 
 function App() {
     return (
-        <div className="container">
-            <Navbar />
+        <div>
+            <Button btnText="Click here" />
+            <Pill text="100M Follows" />
         </div>
     );
 }
